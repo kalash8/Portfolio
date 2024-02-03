@@ -102,7 +102,7 @@ a { color: var(--bs-dark); }
     opacity: 1;
 }
 .image {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
@@ -131,11 +131,20 @@ a { color: var(--bs-dark); }
 
 .skil {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-area: auto;
-    padding-left: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: fit-content;
+    margin: 0px 40px;
+    padding-left: 30px;
+    background-color: rgb(34, 32, 32);
+    border-radius: 20px;
+    color: white;
 }
 
-.inl {
-    display: inline-flex;
+.cert {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.h5 {
+    color: #b9b6b6;
 }
